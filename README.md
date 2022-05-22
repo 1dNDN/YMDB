@@ -8,7 +8,7 @@ YMDB это музыкальный бот для дискорда написан
 
 Для успешной установки и работы бота необходимо установить следущие зависимости:
 
-- [DotNet 5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+- [DotNet 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)
 - [Ffmpeg](https://ffmpeg.org/download.html)
 - [Git](https://git-scm.com/downloads)
 
@@ -39,7 +39,7 @@ git clone https://github.com/Amir0715/YMBD.git $YOUR_DIR -b master
 
 ### Шаг 2
 #### Создайте файл BotConfig.json
-Создайте файл BotConfig.json в каталоге YMDB/config и добавьте в него следующее:
+Создайте файл BotConfig.json в каталоге YMDB/Сonfig и добавьте в него следующее:
 
 ```json
 {
@@ -90,7 +90,7 @@ cd ~/YMDB
 dotnet restore
 dotnet build --no-restore
 ```
-Собранное приложение будет лежать в каталоге `$YOUR_DIR/YMBD/YMBD/bin/Debug/net5.0` с названием `YMBD.dll`.
+Собранное приложение будет лежать в каталоге `$YOUR_DIR/YMBD/YMBD/bin/Debug/net6.0` с названием `YMBD.dll`.
 
 ### Шаг 
 
@@ -113,7 +113,7 @@ dotnet build --no-restore
 #### Запуск приложения
 Запустить его можно вызвав команду:
 ```terminal
-dotnet $YOUR_DIR/YMDB/YMDB/bin/Debug/net5.0/YMBD.dll
+dotnet $YOUR_DIR/YMDB/YMDB/bin/Debug/net6.0/YMBD.dll
 ```
 
 ### Управление ботом.
